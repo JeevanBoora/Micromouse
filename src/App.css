@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Audiowide", cursive, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Audiowide", cursive;
+}
+
+@media screen and (max-width: 800px) {
+  .playpage {
+    background: linear-gradient(
+        180deg,
+        #010121 0%,
+        rgba(20, 20, 66, 0.73) 67.35%,
+        #010121 100%
+      ),
+      linear-gradient(
+        180deg,
+        #010121 0%,
+        rgba(20, 20, 66, 0.73) 67.35%,
+        #010121 100%
+      );
+    width: 92vw;
+    height: 94vh;
+    padding: 3vh 4vw;
+  }
+
+  .playpage-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .playpage-logo img {
+    width: 60px;
+  }
+
+  .mazebg img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+  }
+
+  .mazebg {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    margin-left: -4vw;
+    margin-bottom: -6vh;
+  }
+
+  .playpage-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .playpage-micro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .playpage-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    gap: 6vh;
+    margin-top: 23vh;
+  }
+  #milanlogo {
+    opacity: 0.3;
+    width: 50px;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .pink-button {
+    display: flex;
+    justify-content: center;
+    background: #3c006b;
+    border-radius: 1.5rem;
+    width: max-content;
+    z-index: 99;
+  }
+
+  .pink-button:hover {
+    transform: scale(0.9);
+  }
+
+  .pink-button-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%; 
+    background: #8507b1;
+    border-radius: 1.5rem;
+  }
+
+  .pink-button-inner p {
+    margin: 0;
+    padding: 4px 50px 20px 50px;
+    /* font-size: 4rem; */
+    color: #5efbfe;
+    text-shadow: 2px 0px 1px rgba(5, 250, 255, 0.25),
+      0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 4rem;
+    user-select: none;
+  }
+
+  .pink-button-rect {
+    margin-top: 5%;
+    width: 60%;
+    height: 7px;
+    background: #c75aed;
+    border-radius: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .welldonepage {
+    background: linear-gradient(
+        180deg,
+        #010121 0%,
+        rgba(20, 20, 66, 0.73) 67.35%,
+        #010121 100%
+      ),
+      linear-gradient(
+        180deg,
+        #010121 0%,
+        rgba(20, 20, 66, 0.73) 67.35%,
+        #010121 100%
+      );
+    width: 92vw;
+    height: 94vh;
+    padding: 3vh 4vw;
+  }
+
+  .playpage-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .playpage-logo img {
+    width: 60px;
+  }
+
+  .mazebg img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+  }
+
+  .mazebg {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    margin-left: -4vw;
+    margin-bottom: -6vh;
+  }
+
+  .playpage-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .playpage-micro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .welldone-trophy {
+    z-index: 7;
+  }
+
+  .welldone-trophy img {
+    width: 150px;
+  }
+
+  .welldone-text {
+    color: #5efbfe;
+    z-index: 7;
+    font-size: 2rem;
+  }
+  .welldone-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7vh;
+    gap: 5vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .dashboard {
+    background: linear-gradient(
+        180deg,
+        #010121 0%,
+        rgba(20, 20, 66, 0.73) 67.35%,
+        #010121 100%
+      ),
+      linear-gradient(
+        180deg,
+        #010121 0%,
+        rgba(20, 20, 66, 0.73) 67.35%,
+        #010121 100%
+      );
+    width: 92vw;
+    height: 94vh;
+    padding: 3vh 4vw;
+  }
+
+  .playpage-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .playpage-logo img {
+    width: 60px;
+  }
+
+  .mazebg img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+  }
+
+  .mazebg {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    margin-left: -4vw;
+    margin-bottom: -6vh;
+  }
+
+  .playpage-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .playpage-micro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .pink-btn-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3c006b;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    left: 13vw;
+  }
+
+  .pink-btn-c-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8507b1;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: #05faff;
+    font-size: 2.5rem;
+  }
+
+  .dashboard-stages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    margin-top: 10vh;
+  }
+
+  .pink-button:hover .pink-btn-circle {
+    transform: scale(0.95);
+    left: -2vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .leaderboard-div {
+    display: flex;
+    flex-direction: row;
+    background-color: #8507b1;
+    width: 92%;
+    padding: 1vh 3vw;
+    align-items: center;
+    border-radius: 1rem;
+  }
+
+  .lb-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+  }
+
+  .leaderboard-div h4 {
+    color: #05faff;
+    margin-right: 3vw;
+    font-size: 1.5rem;
+  }
+
+  .leaderboard {
+    width: 80vw;
+    max-height: 40vh;
+    padding: 2vh 5vw;
+    gap: 0.7vh;
+    border: 1px solid #05faff;
+   
+    overflow-y: scroll;
+    z-index: 10;
+    overflow-x: hidden; 
+    border-radius: 10px;
+  }
+  #t_50{
+    color: #05faff ;
+    font-size: larger;
+  }
+  .leaderboard-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7vh;
+    width: 100%;
+    height: 100%;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+  }
+  .leaderboard-in:last-child {
+    margin-bottom: 5vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro-page {
+    background: linear-gradient(
+        180deg,
+        #010121 0%,
+        rgba(20, 20, 66, 0.73) 67.35%,
+        #010121 100%
+      ),
+      linear-gradient(
+        180deg,
+        #010121 0%,
+        rgba(20, 20, 66, 0.73) 67.35%,
+        #010121 100%
+      );
+    width: 92vw;
+    height: 94vh;
+    padding: 3vh 4vw;
+  }
+  .intro-page .playpage-micro img {
+    width: 80%;
+    z-index: 10;
+    border-radius: 50%;
+    margin-top: 5vh;
+  }
+
+  .intro-text p{
+    color: #5efbfe;
+    z-index: 7;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    margin-top: 5vh;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+.button-wrap{
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button-wrap-ld{
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13vh;
+}
+
+.playpage-logo-ins {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8vh;
+  /* z-index: 2; */
+}
+
+.playpage-logo-ins img {
+  width: 60px;
+}
+
+}
