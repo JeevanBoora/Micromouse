@@ -1,8 +1,3 @@
-# Micromouse?
-
-This website is hosted at
-# [https://tinkererslabiith.github.io/TL-Maze-Mouse/](https://tinkererslabiith.github.io/TL-Maze-Mouse/)
-
 ## Available Scripts
 
 In the project directory, you can run:
